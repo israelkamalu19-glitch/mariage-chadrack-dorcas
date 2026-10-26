@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Chadrack & Dorcas — 25 décembre 2026</title>
+<meta name="description" content="Chadrack et Dorcas vous invitent à leur mariage le 25 décembre 2026 à Lubumbashi.">
+<meta name="theme-color" content="#3a2218">
+<meta property="og:title" content="Chadrack & Dorcas — Invitation de mariage">
+<meta property="og:image" content="photos/couple.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@0,400;0,500;1,400&family=Cinzel:wght@400;500&family=Jost:wght@300;400;500&family=Pinyon+Script&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="lock">
+
+<div id="intro">
+  <div class="env">
+    <div class="env-back"></div>
+    <div class="card"><small data-t="invite"></small><b class="script" data-t="names"></b><small data-t="dateShort"></small></div>
+    <div class="env-front"></div>
+    <div class="flap"></div>
+    <div class="seal script" data-t="seal"></div>
+  </div>
+  <button id="open" class="btn" data-t="openBtn"></button>
+</div>
+
+<main>
+  <section id="accueil" class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-in">
+      <p class="eyebrow rv" data-t="invite"></p>
+      <h1 class="script rv"><span data-t="groom"></span><i>&amp;</i><span data-t="bride"></span></h1>
+      <p class="lead rv" data-t="welcome"></p>
+      <p class="eyebrow rv" data-t="dateLong"></p>
+      <div class="count rv" id="count">
+        <div><b>00</b><small>Jours</small></div><div><b>00</b><small>Heures</small></div>
+        <div><b>00</b><small>Minutes</small></div><div><b>00</b><small>Secondes</small></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="histoire" class="sec">
+    <p class="eyebrow rv" data-t="eStory"></p>
+    <h2 class="split" data-t="hStory"></h2>
+    <div class="tl" id="tl"><span class="tl-line"></span></div>
+  </section>
+
+  <section id="galerie" class="sec alt">
+    <p class="eyebrow rv" data-t="eGallery"></p>
+    <h2 class="split" data-t="hGallery"></h2>
+    <div id="gal"></div>
+  </section>
+
+  <section id="programme" class="sec">
+    <p class="eyebrow rv" data-t="eProg"></p>
+    <h2 class="split" data-t="hProg"></h2>
+    <ol class="prog" id="prog"></ol>
+  </section>
+
+  <section id="lieu" class="sec alt">
+    <p class="eyebrow rv" data-t="eVenue"></p>
+    <h2 class="split" data-t="hVenue"></h2>
+    <p class="rv"><strong class="serif" data-t="venueName"></strong><br><span data-t="venueAddr"></span></p>
+    <div class="map rv"><iframe id="map" title="Carte du lieu" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe></div>
+    <a id="route" class="btn rv" target="_blank" rel="noopener" data-t="routeBtn"></a>
+  </section>
+
+  <section id="tenue" class="sec">
+    <p class="eyebrow rv" data-t="eDress"></p>
+    <h2 class="split" data-t="hDress"></h2>
+    <p class="rv" data-t="dressText"></p>
+    <ul class="sw rv" id="sw"></ul>
+  </section>
+
+  <section id="rsvp-s" class="sec dark">
+    <p class="eyebrow rv" data-t="eRsvp"></p>
+    <h2 class="split" data-t="hRsvp"></h2>
+    <p class="rv" data-t="rsvpText"></p>
+    <a id="rsvp" class="btn solid rv" target="_blank" rel="noopener" data-t="rsvpBtn"></a>
+    <p class="deadline rv" data-t="deadline"></p>
+  </section>
+</main>
+
+<footer>
+  <p class="serif rv" data-t="thanks"></p>
+  <p class="script big rv" data-t="initials"></p>
+  <p class="eyebrow rv" data-t="hashtag"></p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
